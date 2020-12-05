@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/emergency_button_btn"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_phone_vzw_emergency_24px"
+        android:drawablePadding="6.0dip"
+        android:fontFamily="roboto-regular"
+        android:text="@string/emergency"
+        android:textColor="@color/accent_color"
+        android:textSize="16.0sp" />
+</LinearLayout>

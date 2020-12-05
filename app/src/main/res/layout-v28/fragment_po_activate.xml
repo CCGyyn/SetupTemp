@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.android.provision.view.ScrollViewExt
+        android:id="@+id/po_sv_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:defaultFocusHighlightEnabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:descendantFocusability="blocksDescendants"
+        android:nextFocusDown="@+id/function_right_button">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1.0"
+            android:focusable="false"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            android:focusableInTouchMode="false"
+            android:nextFocusDown="@+id/function_right_button"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_notice_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:defaultFocusHighlightEnabled="false"
+                android:focusable="false"
+                android:fontFamily="roboto-regular"
+                android:text="Ready to activate"
+                android:textColor="@color/text_color"
+                android:textSize="22sp" />
+
+            <ProgressBar
+                android:id="@+id/act_progress_indicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:indeterminateOnly="true"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.android.provision.view.ScrollViewExt>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginRight="24.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/power_button"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="roboto-regular"
+            android:gravity="center"
+            android:onClick="onclickPowerOff"
+            android:text="@string/poweroff"
+            android:textColor="@color/holo_blue"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/activate_now_button"
+            style="@android:style/Widget.Material.Light.Button.Borderless"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:focusedByDefault="true"
+            android:fontFamily="roboto-regular"
+            android:gravity="center"
+            android:onClick="onclickActivateNow"
+            android:text="@string/activate_now"
+            android:textColor="@color/holo_blue"
+            android:textSize="16.0sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

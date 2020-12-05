@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="suw_color_accent_dark">#ff448aff</color>
+    <color name="suw_color_accent_light">#ff3367d6</color>
+    <color name="suw_link_color_dark">#ff448aff</color>
+    <color name="suw_link_color_light">#ff3367d6</color>
+    <color name="suw_list_item_icon_color_dark">#b3ffffff</color>
+    <color name="suw_list_item_icon_color_light">#89000000</color>
+    <color name="suw_progress_bar_color_dark">#ffffcd40</color>
+    <color name="suw_progress_bar_color_light">#fff4b400</color>
+    <color name="suw_navbar_bg_dark">#ff21272b</color>
+    <color name="suw_navbar_bg_light">#ffe4e7e9</color>
+    <color name="suw_color_accent_glif_dark">#ff4285f4</color>
+    <color name="suw_color_accent_glif_light">#ff4285f4</color>
+    <color name="setup_wizard_navbar_bg_dark">#ff21272b</color>
+    <color name="setup_wizard_navbar_bg_light">#ffe4e7e9</color>
+    <color name="setup_wizard_navbar_text_dark">#deffffff</color>
+    <color name="setup_wizard_navbar_text_light">#de000000</color>
+    <color name="link_color">#ffffffff</color>
+    <color name="on_press_color">#44777879</color>
+    <color name="blue_color">#ff55c5ce</color>
+    <color name="accent_color">#ff4bc0e1</color>
+
+    <color name="title_text_color">#de000000</color>
+    <color name="text_color">#ff333333</color>
+
+   <!-- <color name="setup_wizard_navbar_bg_dark">#ff21272b</color>
+    <color name="setup_wizard_navbar_bg_light">#ffe4e7e9</color>
+    <color name="setup_wizard_navbar_text_dark">#deffffff</color>
+    <color name="setup_wizard_navbar_text_light">#de000000</color> -->
+    <color name="btn_pressed_color">#ff999999</color>
+    <color name="holo_blue">#ff55c5ce</color>
+    <color name="loc_text_color">#ff737373</color>
+    <color name="emergency_text_color">#fff44336</color>
+    <color name="notification_icon_bg">#ff00bcd4</color>
+    <color name="item_delimiter_color">#66aaaaaa</color>
+    <!-- switch color -->
+    <color name="suw_switch_thumb_on_color">#ff3367d6</color>
+    <color name="suw_switch_thumb_off_color">#E3E3E3</color>
+    <color name="suw_switch_track_on_color">#663367d6</color>
+    <color name="suw_switch_track_off_color">#AAA</color>
+
+    <color name="sud_color_accent_dark">#ff448aff</color>
+    <color name="sud_color_accent_glif_dark">#ff4285f4</color>
+    <color name="sud_color_accent_glif_light">#ff4285f4</color>
+    <color name="sud_color_accent_glif_v3_dark">#ff8ab4f8</color>
+    <color name="sud_color_accent_glif_v3_light">#ff1a73e8</color>
+    <color name="sud_color_accent_light">#ff3367d6</color>
+
+    <color name="setup_wizard_wifi_color_light">#89000000</color>
+    <color name="material_blue_700">#3367D6</color>
+
+
+
+
+
+    <color name="light_dark">#80bebebe</color>
+</resources>

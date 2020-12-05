@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="wizard_script_uri">android.resource://com.odm.setupwizardoverlay/raw/custom_wizard_script</string>
+
+    <string name="suw_next_button_label">Next</string>
+    <string name="suw_back_button_label">Back</string>
+    <string name="suw_more_button_label">More</string>
+    <string name="suw_accept_button_label">Accept</string>
+    <string name="device_setup">Setup Wizard</string>
+    <string name="device_setup_summary">Complete the device setup process to get the most out of your device</string>
+    <string name="done">Got it</string>
+    <string name="summary_title">Ready to Go!</string>
+    <string name="verizon_title">My Verizon</string>
+    <string name="ask_verizon">Manage your Verizon Account</string>
+    <string name="vzw_cloud">Cloud</string>
+    <string name="vzw_cloud_summary_not_setup">Not set up</string>
+    <string name="vzw_cloud_summary">Connect to your Verizon Cloud</string>
+    <string name="vzw_cloud_summary_setup_complete">Settings selection complete</string>
+
+    <string name="device_setup_body_1">Your phone is set up and ready to use.</string>
+    <string name="device_setup_body_2">Remember, you can change your selections at any time in Settings.</string>
+    <string name="device_setup_body_3">And you can manage your Verizon account and connect to your Verizon Cloud right from your phone.</string>
+
+    <!-- copy all -->
+    <string name="setup_wizard_next_button_label">Next</string>
+    <string name="setup_wizard_back_button_label">Back</string>
+    <string name="product_surnia">surnia</string>
+    <string name="product_ghost">ghost</string>
+    <string name="product_clark">clark</string>
+    <string name="pco_apn">VZWINTERNET</string>
+    <string name="setup">Setup Wizard Overlay</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="no_sim">"Your phone needs a <font color="#ff55c5ce"> <xliff:g id="countdown">^1</xliff:g> </font> to work. You may not have inserted your SIM card yet or it may be inserted incorrectly.
+            \n\n Please turn off your phone and make sure your SIM card is inserted as shown below. Then turn your phone back on."</string>
+    <string name="sim_card">SIM card</string>
+    <string name="corrupt_sim">Sorry, this SIM card is not readable. Please contact your wireless service provider.</string>
+    <string name="wrong_operator_usc">This SIM card is from an unknown source.</string>
+    <string name="wrong_operator_vzw">This SIM card is not from Verizon Wireless.</string>
+    <string name="wrong_sim">Sorry, this SIM card is not supported. Please contact your wireless service provider.</string>
+    <string name="customer_care_vzw">(877) 807-4646</string>
+    <string name="customer_care_usc">1-888-944-9400</string>
+    <string name="vzw_customer_service">(800) 922-0204</string>
+    <string name="cold_sim_msg">"Sorry, we're having trouble activating your phone. Please call %1$s from another phone to activate your 4G LTE service and then try again by restarting your phone."</string>
+    <string name="po_activate_sim_msg_new_order">Please note, the activation will take a few minutes.</string>
+    <string name="po_activate_sim_msg_upgrade_order">"Before you activate this phone:
+\u00091.\u0009Back up your contacts from your old phone.
+\u00092.\u0009Turn off your old phone.
+
+When you tap Activate Now, we will:
+\u00091.\u0009Deactivate your old phone.
+\u00092.\u0009Transfer your old phone number to this phone.
+\u00093.\u0009Activate this phone."</string>
+    <string name="po_activate_get_no_msg">Your activation has begun. Please wait while we get your phone ready to set up.</string>
+    <string name="po_act_deact_phone_msg">"We need to deactivate your old phone before we can activate your new phone.
+Remember to turn off your old phone."</string>
+    <string name="po_prepare_activating_msg">"Once your phone is activated, we'll walk you through setting up your email and Verizon Cloud."</string>
+    <string name="po_activate_title">Ready to Activate</string>
+    <string name="po_authentication_title">Verify Your Account</string>
+    <string name="what_is_billing_passwd"><u>What is a Billing Password?</u></string>
+    <string name="po_act_get_no">Getting Phone Number</string>
+    <string name="po_act_deact_phone">Deactivating Old Phone</string>
+    <string name="po_prepare_activating">Preparing to Activate Your Phone</string>
+    <string name="po_transfering_ph_no">Transferring Phone Number</string>
+    <string name="po_transfering_ph_no_msg">"We're working on transferring your existing phone number to your new phone."</string>
+    <string name="enterSsn">"To get started, enter the last 4 digits of the Account Owner's Social Security Number:"</string>
+    <string name="enterBillingPassword">"To get started, enter your account's Billing Password"</string>
+    <string name="billing_order_title">Billing Password</string>
+    <string name="billing_passwd_another_way">"Want to verify another way?
+"<u>"Use your account's Billing Password instead."</u></string>
+    <string name="billing_passwd_text">"Its a password created by the Account Owner to use for account access instead of the last 4 digits of the Social Security Number.
+Note: It is not the same as your My Verizon password."</string>
+    <string name="retry_passwd_text">"This entry does not match our records.
+
+Please try again."</string>
+    <string name="retry_passwd_limit_exceeded_text">"Sorry, we're having trouble verifying your account.
+ Please contact Verizon Wireless at (800) 922-0204."</string>
+    <string name="acc_restricted_text">"To activate your phone, follow the instructions included with your new phone.
+
+Or contact your organization's Verizon Wireless administrator and provide the following information:
+
+Device ID: %1$s
+
+SIM ID: %2$s"</string>
+    <string name="acc_restricted_title">How to Activate Your Phone</string>
+    <string name="lost_and_stolen_text">"Sorry, we're having trouble activating your phone. Please call (877) 807-4646 from another phone to activate your 4G LTE service and then try again."</string>
+    <string name="po_timeout_msg">"Sorry, we're having trouble activating your phone.
+
+Make sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside.
+
+Once your signal is good, you can try activating again by turning this phone off, then on again.
+
+If this problem persists, please contact Customer Service at (800) 922-0204 for assistance."</string>
+    <string name="release_failed">To activate your phone, call (800) 922-0204 from any phone other than your new phone.</string>
+    <string name="release_failed_title">Something Went Wrong</string>
+    <string name="inactive_sim">"Please wait while we activate your new phone. This may take up to %1$d minutes.
+If you are moving your number from your old phone to this one, remember to keep your old phone turned off until activation is complete."</string>
+    <string name="dialer_invalid_sim">This SIM card is not recognized or registered. Please contact your wireless service provider.</string>
+    <string name="activated_sim">"A Verizon Wireless SIM card has activated your service and updated your phone's roaming capabilities.
+
+Your phone number is %1$s."</string>
+    <string name="loc_text_vzw">"Your phone can share its approximate location with apps and services like maps, shopping and weather. Read the privacy policy of any app or service provider you're considering to understand how they collect, use and share your location information before you use them."</string>
+    <string name="phone_number_title">Your phone number is:</string>
+    <string name="ok">OK</string>
+    <string name="restart_phone">Restart phone</string>
+    <string name="activation_failure">"Sorry, we're having trouble activating your phone.
+
+If you're moving your phone number from your old phone to this one, make sure your old phone is turned off.
+
+Also, make sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside.
+
+Once your signal is good, you can try activating again by turning this phone off, then on again."</string>
+    <string name="phone_act_title">Phone Activation</string>
+    <string name="sim_is_active_vzw">Verizon Wireless</string>
+    <string name="sim_is_active_usc">Your new</string>
+    <string name="sim_is_active">phone is now active.</string>
+    <string name="restart">Restart to Continue</string>
+    <string name="wait">Please wait, this may take a few minutes.</string>
+    <string name="wait_skip">Please wait while we skip setup.</string>
+    <string name="service_start">It may take up to 15 minutes for service to start.</string>
+    <string name="loc_text_usc">Data usage for downloading, using and updating apps will be billed according to your plan.</string>
+    <string name="dlgtitle">Setup Wizard Warning</string>
+    <string name="exit_setup">Are you sure you want to leave the Setup Wizard? If you leave now, you will skip important steps in setting up your phone.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="airplane_mode_title">Airplane mode on</string>
+    <string name="airplane_mode_message">You cannot get the sim status while the device is in airplane mode. Would you like to turn airplane mode off?</string>
+    <string name="dialer_cold_sim">Sorry, this SIM card is not registered. Please call (877) 807-4646 from another phone.</string>
+    <string name="leave">Leave Setup</string>
+    <string name="return_to_wizard">Return to Setup</string>
+    <string name="wi_fi">Use Wi-Fi</string>
+    <string name="leaveSetup_title">Leave Setup Wizard</string>
+    <string name="leaveSetup_txt">You can always finish the wizard later by going to Apps > Setup Wizard.</string>
+    <string name="sim_card_already_activatd_txt">The SIM card has already been activated. Your phone number is:</string>
+    <string name="no_network_title">No Network Connection</string>
+    <string name="no_network_msg">A network connection is required to continue with setup. Please connect to a Wi-Fi network.</string>
+    <string name="back_to_wifi">Back to Wi-Fi</string>
+    <string name="wifi_loc_text_1">Note: You can set up your phone using Wi-Fi, but you won’t be able to make or receive calls until your phone has been activated on the Verizon network.</string>
+    <string name="wifi_loc_text_2">Also, you won’t be able to make emergency calls, after this screen until you finish the Setup Wizard.</string>
+    <string name="loc_info_title">Location Information</string>
+    <string name="emergency">Emergency call (911)</string>
+    <string name="email_subtitle">Tap an email to set it up</string>
+    <string name="aol">AOL</string>
+    <string name="corporate">Corporate</string>
+    <string name="gmail_service">Gmail</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="hotmail">Outlook.com</string>
+    <string name="vzw">Verizon.net</string>
+    <string name="others">Other Providers</string>
+    <string name="aol_addr">\@aol.com</string>
+    <string name="yahoo_addr">\@yahoo.com</string>
+    <string name="hotmail_addr">\@outlook.com</string>
+    <string name="vzw_addr">\@verizon.net</string>
+    <string name="default_desc">Touch to add an account</string>
+    <string name="gmail_error_message">You will be able to setup your Gmail account in a later step.</string>
+    <string name="gmail_error_message1">You cannot setup Gmail here. Use the Gmail app to add your account.</string>
+    <string name="Gmail_desc">Gmail setup is in a later step.</string>
+    <string name="Gmail_desc1">Use the Gmail app to add your account.</string>
+    <string name="done_email">Done with Email</string>
+    <string name="captive_request_title">Wi-Fi Network Sign-in</string>
+    <string name="captive_request_text">"The network you're connecting to requires you to sign in first."</string>
+    <string name="sign_in">Go to Sign-In</string>
+    <string name="email_title">Email accounts</string>
+    <string name="vzw_data_url">https://quickaccess.verizonwireless.com/bbportal/phone/start.do</string>
+    <string name="vzw_data_url_dev">https://tqa.verizonwireless.com/bbportal/phone/start.do</string>
+    <string name="service_plan_message">"You haven't activated your phone yet.
+
+You will not be able to make phone calls, send text messages or use the Internet on the Verizon network.
+
+To activate your phone later, go to Settings -> View Verizon Account."</string>
+    <string name="back_to_plan_selection">Back to Activation</string>
+    <string name="service_plan_title">Not Activated</string>
+    <string name="exit_plan_selection">"Don't Activate"</string>
+    <string name="emergency_text">Note: You will not be able to make or receive phone calls, including emergency calls, after this screen until you finish the Setup Wizard.</string>
+    <string name="skip_activation">Exit Activation</string>
+    <string name="skip_anyway">Skip Anyway</string>
+    <string name="no_network_error_message">"Email setup is not available because you don't have a data connection. Connect to a Wi-Fi network to set up email now, or set it up later in the Email app."</string>
+    <string name="no_network_error_title">Unable to connect</string>
+    <string name="no_data_error_message">Sorry, that Wi-Fi network is not connected to the Internet right now. Please try a different network or leave setup.</string>
+    <string name="no_data_error_title">No Internet Connection</string>
+    <string name="vzw_data_info_msg">When using mobile data for downloading, using and updating apps, you will be billed according to your plan.</string>
+    <string name="vzw_demo_mode_dialog_title">Verizon Store Demo Mode</string>
+    <string name="vzw_demo_mode_dialog_msg">"FOR USE BY VERIZON STORE EMPLOYEES ONLY
+
+Enter the password to enable Verizon store demo mode on this device"</string>
+    <string name="activate_now">Activate Now</string>
+    <string name="pco_2_activated_sim">Your phone is now active.</string>
+    <string name="pco_2_title">Data usage limited</string>
+    <string name="limited_data">, however your data usage is currently limited due to time of day or a data limit.</string>
+    <string name="vzw_ready_to_activate_title">Ready to activate?</string>
+    <string name="vzw_ready_to_activate_msg">"Please note, the activation will take a few minutes.
+
+To set up your phone using Wi-Fi only, tap Doni't Activate."</string>
+    <string name="dont_activate">"Don't Activate"</string>
+    <string name="po_activation_incomplete">Activation incomplete</string>
+    <string name="po_activation_incomplete_text">Please contact Customer Service at (800) 922- 0204 for assistance.</string>
+    <string name="po_activation_in_progress">"Activating your phone...
+ Don't turn it off"</string>
+    <string name="not_now">Not now</string>
+    <string name="no_internet_title">No Internet Connection</string>
+    <string name="no_internet_text">Do you want to activate your phone so you can use the Verizon network to access the Internet?</string>
+    <string name="restricted_acc_text">Contact your organizations account administrator.</string>
+    <string name="lost_stolen_text">"Call (877) 807-4646 from another phone. You'll need your account information."</string>
+    <string name="pending_order_url_dev">https://poa-iot.vzw.com/vzw-eas-ws/EASSelfActivation</string>
+    <string name="verify_title">Verifying your account</string>
+    <string name="po_not_found_msg">"Call (877) 807-4646 from another phone. You'll need your account information."</string>
+    <string name="po_not_found_title">Ready to activate?</string>
+    <string name="view_vzw_account">View Verizon Account</string>
+    <string name="screen_expired">Screen expired</string>
+    <string name="screen_expired_msg">Sorry, the screen has expired. It will update when you tap OK.</string>
+    <string name="pco3_msg">Do you want to purchase data so you can use the Verizon network to access the Internet?</string>
+    <string name="po_lookup_url">https://eas.verizonwireless.com/vzw-eas-ws/EASSelfActivation/LookupOrder</string>
+    <string name="po_validate_url">https://eas.verizonwireless.com/vzw-eas-ws/EASSelfActivation/ValidateCustomer</string>
+    <string name="po_release_url">https://eas.verizonwireless.com/vzw-eas-ws/EASSelfActivation/ReleaseOrder</string>
+    <string name="poweroff">Power Off</string>
+
+    <string name="terms_conditions_title">Terms &amp; Conditions</string>
+    <string name="terms_conditions">Verizon Cloud is subject to the terms of your Customer Agreement and Plan.
+        If you want to stop using Verizon Cloud at anytime, open the app and select \"Turn Off\".
+        \n\nAfter that, you will no longer have access to the contacts stored in your Cloud.
+        You will also lose access to your Cloud if you end your Verizon Wireless service.
+        \n\nIn addition,we may immediately end the Verizon Cloud service without liability,
+        but we\'ll send you a notice first.</string>
+    <string name="wifi_and_mobile_skipped_title">Skip network connections?</string>
+    <string name="wifi_and_mobile_skipped_message">"Connecting to a Wi‑Fi or mobile network helps you quickly set up your phone.
+        \n\nWithout a connection, you can’t:\n
+        &#183; Sign in to your Google Account\n
+        &#183; Restore apps &amp; data\n
+        &#183; Get software updates\n
+        &#183; Automatically set up time and date
+    </string>
+    <string name="continue_setup_using_mobile_network_title">"Continue setup using\n mobile network"</string>
+    <string name="continue_setup_using_mobile_network_content">"\n\n\t\tYour phone will use your mobile network to complete setup, which may include updates and app downloads. Data usage may apply."
+    </string>
+    <string name="use_mobile_text">Use Mobile</string>
+    <string name="back_to_wifi_text">Back to Wi-Fi</string>
+
+
+
+
+
+
+
+
+
+    <string name="phone_activation">Phone activation</string>
+    <string name="wait_while_activating">Activating now. This may take up to 5 min..</string>
+    <string name="ready_to_go">Your phone is set up and ready to use.
+          Remember, you can change your selections at any time in Settings.</string>
+    <string name="label_back">Back</string>
+    <string name="label_next">Next</string>
+    <string name="label_set">Set</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_view">View</string>
+    <string name="label_got_it">Got it!</string>
+    <string name="label_select">Select</string>
+    <string name="label_connect">Connect</string>
+
+    <string name="skip_activation_ui_warn">you skip the activation ui,so you can see this.if you want to continue active you phone,press back to retry! or press \'Next\' to continue!</string>
+    <string name="sim_not_ready_warn">sim is not ready,if you want to continue active you phone,press back to retry!</string>
+    <string name="phone_not_activated_warn">Failed to activate your phone,if you want to continue activate you phone,press back to retry! or press \'Next\' to continue!</string>
+    <string name="activate_via_call">To activate your phone, call (800) 922-0204 from another phone.</string>
+    <string name="activate_timeout_warn">Sorry, were having trouble activating your phone. Please call (800) 922-0204 from another phone to activate your 4G LTE service and then try again by restarting your phone.
+        You’ll need your account information.</string>
+    <string name="reboot_to_complete">"Now , you need to restart your phone to complete activation. please press "Reboot" key!</string>
+    <string name="phone_number_unknown">Unknown</string>
+    <string name="sim_note">Note : you will not be able to make  or receive phone calls, including emergency calls, after this screen until you finish the Setup Wizard.\n</string>
+    <string name="poa_username">EAS_REL</string>
+    <string name="poa_client_name">EAS_OEM</string>
+    <string name="poa_passwd">Yk03pHeK</string>
+    <!--  for test -->
+    <string name="poa_username_for_test">VZW_REL</string>
+    <string name="poa_passwd_for_test">VZW_REL123</string>
+    <string name="po_lookup_url_for_test">https://poa-iot.vzw.com/vzw-eas-ws/EASSelfActivation/LookupOrder</string>
+    <string name="po_validate_url_for_test">https://poa-iot.vzw.com/vzw-eas-ws/EASSelfActivation/ValidateCustomer</string>
+    <string name="po_release_url_for_test">https://poa-iot.vzw.com/vzw-eas-ws/EASSelfActivation/ReleaseOrder</string>
+
+    <string name="ssn_another_way"><u>Or tap here to use the last 4 digits of the Account Owner\'s SSN instead.</u></string>
+    <string name="what_is_pin">What is an account PIN?\nit\'s a password created by the Account Owner for account access.NOTE: it\'s different from your My Verizon password</string>
+    <string name="po_authentication_verifying">Verifying Your Account</string>
+
+    <string name="verizon_cloud_title">Verizon Cloud</string>
+    <string name="cloud_use_info">Keep your contacts safely backed up with Verizon Cloud.
+        \n\nContacts previously saved in Verizon Cloud or Backup Assistant will be synced to this phone.
+        \n\nBy selecting Next, you agree to the Terms &amp; Conditions.</string>
+    <string name="ready_to_activate">Ready to activate</string>
+    <string name="activate_cancel">Cancel</string>
+    <string name="activation_last_minutes">Please note the activation will take a few minutes.</string>
+    <string name="getting_phone_number">Getting Phone Number</string>
+    <string name="wait_for_get_number">Your activation has begun. Please wait while we get your phone ready to set up</string>
+    <string name="deactivate_old_phone">Deactivating Your Old Phone</string>
+    <string name="turn_off_for_deactivate">We need to deactivate your old phone before we can activate your new phone.
+        \n\nRemember to turn off your old phone and leave it off until activation is complete</string>
+    <string name="activating_title">Activating your phone</string>
+    <string name="activating_message">Don\'t turn it off.</string>
+    <string name="poa_upgrade_order_not_found">Sorry, we\'re having trouble activating your phone.  Please call (877) 807-4646 from another phone to activate your 4G LTE service and then try again. You\'ll need your account information.</string>
+    <string name="poa_entry_not_match_records">This entry does not match our records. Please try again.</string>
+    <string name="sorry_not_activate">Sorry, Can\'t Activate. To activate your phone, call (800) 922-0204 from any phone other than your new phone.</string>
+    <string name="po_prepare_to_activate">Preparing to Activate Your Phone</string>
+    <string name="po_setup_email_cloud">Once your phone is activated, we\'ll walk you through setting up your email and Verizon Cloud Buttons</string>
+
+    <string name="account_restricted">To activate your phone, follow the instructions included with your new phone. Or contact the Verizon Wireless administrator at your organization and provide the following information: <Data><![CDATA[ <br/><br/>
+    Device ID: <br/> <pre><font size="15" color="#4285f4"><b>\t%1$s</b></font></pre> <br/>
+    SIM ID: <br/> <pre><font size="15" color="#4285f4"><b>\t%2$s</b></font></pre>]]></Data></string>
+
+    <string name="lookup_order_timeout">Sorry, we\'re having trouble activating your phone. Make sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside. Once your signal is good, you can try activating again by turning this phone off, then on again. If this problem persists, please contact Customer Service at (800) 922-0204 for assistance.</string>
+
+    <string name="validate_customer_timeout">Sorry, we\'re having trouble activating your phone.
+        \n\nMake sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside.
+        \n\nOnce your signal is good, you can try activating again by turning this phone off, then on again.
+        \n\nIf this problem persists, please contact Customer Service at (800) 922-0204 for assistance.</string>
+
+    <string name="release_order_timeout">Sorry, we\'re having trouble activating your phone. Make sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside. Once your signal is good, you can try activating again by turning this phone off, then on again. If this problem persists, please contact Customer Service at (800) 922-0204 for assistance.</string>
+
+    <string name="lost_and_stolen_device_or_sim">Sorry, we\'re having trouble activating your phone. Please call (877) 807-4646 from another phone to activate your 4G LTE service and then try again.</string>
+    <string name="pending_provision_error_code_00013">Sorry, we\'re having trouble activating your phone.
+        \n\nIf you\'re moving your phone number from your old phone to this one, make sure your old phone is turned off.
+        \n\nMake sure you have a good signal (multiple bars). If you are indoors, try moving closer to a window or going outside.
+        \n\nOnce your signal is good, you can try activating again by turning this phone off, then on again. If the problem persists, please contact Customer Service at (800) 922-0204 for assistance.</string>
+    <string name="phone_is_now_active">Your new Verizon Wireless phone is now active.  Your phone number is %1$s.
+        \n\nYou will not be able to make or receive phone calls, including emergency calls, while setting up your phone.
+        \n\nYour phone can share its approximate location with apps and services like maps, shopping and weather. Read the privacy policy of any app or service provider youre considering to understand how they collect, use and share your location information before you use them.</string>
+    <string name="transferring_phone_umber">Transferring Phone Number</string>
+    <string name="transferring_from_existing_number">We\'re working on transferring your existing phone number to your new phone.</string>
+    <string name="prepare_activate_your_phone">Before you activate this phone:\n
+                    1. Back up your contacts from your old phone. \n
+                    2. Turn off your old phone.
+        \n\nWhen you tap Activate Now, we will: \n
+                    1. Deactivate your old phone.\n
+                    2. Transfer your old phone number to this phone.\n
+                    3. Activate this phone.\n</string>
+</resources>
+

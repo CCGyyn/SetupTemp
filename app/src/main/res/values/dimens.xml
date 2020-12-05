@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_paragraph_vertical_padding">12dp</dimen>
+    <dimen name="suw_title_size">18sp</dimen>
+    <dimen name="suw_text_horizontal_padding">20dp</dimen>
+    <dimen name="suw_switch_padding">0.0px</dimen>
+
+
+    <dimen name="soft_key_bottom_bar_layout_height">31dp</dimen>
+    <dimen name="textSize">22sp</dimen>
+
+    <dimen name="editor_kind_icon_bottom_margin">2dp</dimen>
+    <dimen name="mobile_hotspot_list_item_text_size">22sp</dimen>
+    <dimen name="list_margin_start">10dp</dimen>
+    <dimen name="editor_line_item_height">40dp</dimen>
+    <dimen name="editor_spinner_text_size">20sp</dimen>
+    <dimen name="editor_line_padding">6dp</dimen>
+
+</resources>

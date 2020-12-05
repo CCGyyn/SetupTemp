@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_lunch_fragment_class" translatable="false">com.android.provision.fragments.SetupWizardFragment</string>
+</resources>
