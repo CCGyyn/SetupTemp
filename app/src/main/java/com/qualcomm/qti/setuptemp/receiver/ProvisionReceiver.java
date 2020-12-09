@@ -22,7 +22,7 @@ import com.qualcomm.qti.setuptemp.poa.VzwActivationService;
 public class ProvisionReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = true;
     private static final String TAG = ProvisionReceiver.class.getSimpleName();
-    public static final String ACTION_POA_DEBUG_MODE_CHANGE = "com.qualcomm.qti.setuptemp.ACTION_DEBUG_MODE_CHANGE";
+    public static final String ACTION_POA_DEBUG_MODE_CHANGE = "com.android.provision.ACTION_DEBUG_MODE_CHANGE";
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -32,7 +32,7 @@ public class ProvisionReceiver extends BroadcastReceiver {
         }
 
         switch (action) {
-            case "com.qualcomm.qti.setuptemp.ACTION_ACTIVATION_UI":
+            case "com.android.provision.ACTION_ACTIVATION_UI":
                 boolean isCallerDialer = intent.getBooleanExtra(DefaultActivity.START_FROM_DIALER, false);
                 boolean isCallerNotification = intent.getBooleanExtra(DefaultActivity.START_FROM_NOTIFICATION, false);
                 boolean isVerifiedCaller = isCallerDialer || isCallerNotification;

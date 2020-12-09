@@ -40,11 +40,11 @@ public class VzwActivationService extends Service {
 	public static final String REQ_TYPE = "req_release";
 	public static final String REQ_RELEASE = "req_release";
 	public static final String REQ_NONE = "req_none";
-	private static final String ACTION_ORDER_FOUND = "com.qualcomm.qti.setuptemp.poa.ACTION_ORDER_FOUND";
-	private static final String ACTION_SHOW_ACTIVATING = "com.qualcomm.qti.setuptemp.poa.ACTION_SHOW_ACTIVATING";
-	private static final String ACTION_SHOW_ACTIVATION_SUCCESS = "com.qualcomm.qti.setuptemp.poa.ACTION_ACTIVATION_SUCCESS";
-	private static final String ACTION_SHOW_ACTIVATION_FAILURE = "com.qualcomm.qti.setuptemp.poa.ACTION_ACTIVATION_FAILURE";
-	private static final String ACTION_SHOW_ACTIVATION_DIALOG = "com.qualcomm.qti.setuptemp.poa.ACTION_ACTIVATION_DIALOG";
+	private static final String ACTION_ORDER_FOUND = "com.android.provision.poa.ACTION_ORDER_FOUND";
+	private static final String ACTION_SHOW_ACTIVATING = "com.android.provision.poa.ACTION_SHOW_ACTIVATING";
+	private static final String ACTION_SHOW_ACTIVATION_SUCCESS = "com.android.provision.poa.ACTION_ACTIVATION_SUCCESS";
+	private static final String ACTION_SHOW_ACTIVATION_FAILURE = "com.android.provision.poa.ACTION_ACTIVATION_FAILURE";
+	private static final String ACTION_SHOW_ACTIVATION_DIALOG = "com.android.provision.poa.ACTION_ACTIVATION_DIALOG";
 	public static final int MSG_RELEASEORDER_REQUEST_SUCCESS=11;
 	public static final int MSG_RELEASEORDER_REQUEST_FAILURE=12;
 	public static final int MSG_RELEASEORDER_REQUEST_TIMEOUT=13;
